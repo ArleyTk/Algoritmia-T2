@@ -8,6 +8,7 @@ function totalVendido(ventas) {
   return total;
 }
 
+
 function unidadesVendidas(ventas) {
   let unidades = 0;
   for (const v of ventas) unidades += v.cantidad;
